@@ -11,7 +11,7 @@ PASSWORD = os.getenv("PASSWORD")
 # Buat sesi request agar bisa login (jika perlu)
 def create_session():
     session = requests.Session()
-    login_url = "https://example.com/login"  # Sesuaikan dengan URL login
+    login_url = "https://sinta.kemdikbud.go.id/logins"  # Sesuaikan dengan URL login
     payload = {
         "username": USERNAME,
         "password": PASSWORD

@@ -12,7 +12,7 @@ session = create_session()
 
 # Rentang halaman yang ingin di-scrape (contoh: 5005-5015)
 start_page = 5005
-end_page = start_page + 10
+end_page = start_page + 833
 
 # Simpan semua hasil scraping
 all_data = []
